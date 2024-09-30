@@ -10,10 +10,16 @@ package UTS;
  */
 public class Main {
     public static void main(String[] args){
-        makanan produk1 = new makanan("snack",15000,"2023-12-30");
+        elektronik produk1 = new elektronik("Laptop",15000000,2);
         produk1.tampilkaninfo();
         
-        pegawaikontrak pegawai1 = new pegawaikontrak("Wildan",3000000,12);
+        pegawaitetap pegawai1 = new pegawaitetap("Wildan",1000000,500000);
         pegawai1.tampilkaninfo();
+        
+        makanan produk2 = new makanan("snack",15000,"2023-12-30");
+        produk2.tampilkaninfo();
+        
+        pegawaikontrak pegawai2 = new pegawaikontrak("Wildan",3000000,12);
+        pegawai2.tampilkaninfo();
     }
 }
