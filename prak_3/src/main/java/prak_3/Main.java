@@ -10,7 +10,7 @@ package prak_3;
  */
 public class Main {
     public static void main(String[] args) {
-        mobil mobil1 = new mobil ("Toyota","Corolla",2001,"pink");
+        mobil mobil1 = new mobil ("Toyota","Avanza",2001,"pink");
         mobil1.showroom();
         mobil1.displayinfo();
         mobil1.startEngine();
